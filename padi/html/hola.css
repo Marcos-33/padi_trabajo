@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezado */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header-img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.header-title {
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+/* Cuerpo */
+.main-content {
+  height: 1000px
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-button {
+  padding: 20px 40px;
+  font-size: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Pie de página */
+.footer {
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.footer-img {
+  height: 60px;
+}
+
+.footer-text {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-img.left {
+  margin-right: auto;
+}
+
+.footer-img.right {
+  margin-left: auto;
+}
